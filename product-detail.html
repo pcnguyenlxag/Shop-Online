@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="UTF-8">
+
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/product-detail.css">
+	<title>Product Detail</title>
+</head>
+<body>
+	<!-- ********header******** -->
+    <div class="header">
+        <div class="header-top">
+            <div class="container py-2">
+                <div class="row">
+                        <a href="home-page.html"><img src="images/Logo.jpg" style="width: 180px; height: 60px;" alt="Shop Online"></a>
+                    <div class="ml-auto" >
+                        <ul class="">
+                            <li class="header-top-item">
+                                <a class="" href="#" style="font-size: 1rem;">Giỏ Hàng</a>
+                            </li>
+                            <li class="header-top-item">
+                                <div class="cart">
+                                    <a class="cart-in" href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
+                                    <span>0</span>
+                                </div> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bot">
+            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #c5c5c5">
+                <div class="container">
+                    <!-- <a type="aria-hidden" class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="home-page.html"><i class="fa fa-home" aria-hidden="true"></i> Trang Chủ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="apple-detail.html">Iphone</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sam Sung</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Oppo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sony</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>  
+            </nav>
+        </div>  
+    </div>
+    <!-- *******end header******** -->
+	<!--************** Left content ***************-->
+	<div class="container mt-3 mb-3" style="display: inline-block;">
+		<div class="left-content col-md-4">
+			<div class="product-image">
+				<img src="images/product/iphone/iphone-6s-32gb-400x450.png" alt="iphone 32g">
+			</div>
+			<div class="add-product">
+				<h4>8.990.000 đ</h4>
+				<div class="btn btn-danger btn-cart"><a href="payment.html">Mua Ngay</a></div>
+				<div class="btn btn-danger btn-cart"><a href="#">Thêm Vào Giỏ Hàng</a></div>	
+			</div>
+		</div>
+		<!--**************** Product detail ******************-->
+		<div class="right-content col-md-8">
+			<nav id="navbar-example2" class="navbar navbar-light menu-product">
+				<a class="navbar-brand" href="#">Thông số kỹ thuật</a>
+				<ul class="nav nav-pills">
+					<li class="nav-item">
+						<a class="nav-link" href="#screen">Màn Hình </a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#Camera-main">Camera Sau</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Đi tới</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#Camera-main">Camera Sau</a>
+							<a class="dropdown-item" href="#Camera-sub">Camera Trước</a>
+							<a class="dropdown-item" href="#Cpu">Hệ điều hành - CPU</a>
+						</div>
+					</li>
+				</ul>
+			</nav>
+			<div class="product-detail" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+				<h4 id="short-info">Thông Tin Chung</h4>
+					<p>
+						Màn hình: LED-backlit IPS LCD, 4.7", Retina HD
+						Hệ điều hành: iOS 10
+						Camera sau: 12 MP
+						Camera trước: 5 MP
+						CPU: Apple A9 2 nhân 64-bit
+						RAM: 2 GB
+						Bộ nhớ trong: 32 GB		
+					</p>					
+				<h4 id="screen">Màn Hình</h4>
+					<p>
+						Công nghệ màn hình: LED-backlit IPS LCD
+						Độ phân giải: HD (1334 x 750 Pixels)
+						Màn hình rộng: 4.7"
+						Mặt kính cảm ứng: Kính oleophobic (ion cường lực)
+					</p>
+				<h4 id="Camera-main">Camera Sau</h4>
+					<p>
+						Độ phân giải: 12 MP
+						Quay phim: Quay phim 4K 2160p@30fps
+						Đèn Flash: Có
+						Chụp ảnh nâng cao: Tự động lấy nét, Chạm lấy nét, Nhận diện khuôn mặt, HDR, Panorama
+					</p>
+				<h4 id="Camera-sub">Camera Trước</h4>
+					<p>
+						Độ phân giải: 5 MP
+						Videocall: Có
+						Thông tin khác: Selfie ngược sáng HDR, Tự động cân bằng sáng, Nhận diện khuôn mặt
+					</p>
+				<h4 id="Cpu">Hệ điều hành - CPU</h4>
+					<p>
+						Hệ điều hành: iOS 10
+						Chipset: Apple A9 2 nhân 64-bit
+						Tốc độ CPU: 1.8 GHz
+						Chip đồ họa (GPU): PowerVR GT7600	
+					</p>
+			</div>
+		</div>
+	</div>
+    <!-- **************footer***************** -->
+    <div class="footer">
+        <div class="footer-top pt-5">
+            <div class="container" style="display: flex; flex-direction: row; justify-content: center;">
+                <div class="footer-content">
+                    <h4>Về Shop Online</h4>
+                    <p>Hệ thống Shop-Online chuyên phân phối các sản phẩm di động với <strong>chất lượng tốt nhất</strong></p>
+                </div>
+                <div class="footer-content">
+                    <h4>Liên Hệ</h4>
+                    <p>NHB_TEAM - <strong>DTH15TH2</strong> </p>
+                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i> example@email.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> 0123.456.789</p>
+                </div>
+            </div>
+            <div class="container" style="display: flex; justify-content: center; flex-direction: row;">
+                <h4>Chứng nhận</h4>
+                <div class="footer-content certify">
+                    <img src="images/logo-dang-ky-voi-bo-cong-thuong.png" alt="">
+                </div>
+            </div>
+        </div>   
+        <div class="footer-bot bg-dark py-2">
+            <div class="container">
+                <h5>COPY RIGHT &copy BY <strong>NHB_TEAM</strong>.</h5>
+                <p>ALL RIGHTS RESERVED.</p>
+            </div>   
+        </div>          
+    </div>
+    <!-- **************end footer***************** -->  
+
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
